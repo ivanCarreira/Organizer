@@ -1,0 +1,28 @@
+<resources>
+
+    <string-array name="tiposInternet">
+        <item>Bluetooth</item>
+        <item>Wi-fi</item>
+        <item>Internet</item>
+    </string-array>
+    <string-array name="tiposInternetValores">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="tipos_guardado">
+        <item>Array volátil</item>
+        <item>Fichero XML</item>
+        <item>Fichero en memoria interna</item>
+        <item>Fichero en memoria externa</item>
+        <item>Base de datos SQLite</item>
+    </string-array>
+    <string-array name="tipos_guardado_valores">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+</resources>

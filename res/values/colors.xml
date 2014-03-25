@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blanco">#ffffff</color>
+    <color name="blanco_oscuro">#eeeeee</color>
+    <color name="gris_muy_claro">#aaaaaa</color>
+    <color name="gris_claro">#999999</color>
+    <color name="gris_medio">#777777</color>
+    <color name="gris_oscuro">#555555</color>
+    <color name="negro">#000000</color>
+    <color name="verde_oscuro">#669900</color>
+    <color name="verde_claro">#99cc00</color>
+    <color name="rojo_oscuro">#cc0000</color>
+    <color name="rojo_claro">#ff8800</color>
+    <color name="naranja_oscuro">#ff8800</color>
+    <color name="naranja_claro">#ffbb33</color>
+    <color name="azul_oscuro">#0099cc</color>
+    <color name="azul_claro">#33b5e5</color>
+    <color name="violeta_oscuro">#9933cc</color>
+    <color name="violeta_claro">#aa66cc</color> 
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="preferencias_principal" >
+        <ListPreference
+            android:key="internet"
+            android:title="Wi-Fi e Internet"
+            android:summary="Se escoge el tipo de conexión utilizada"
+            android:entries="@array/tiposInternet"
+            android:entryValues="@array/tiposInternetValores"/>
+    <PreferenceCategory android:title="Datos">
+        <ListPreference
+            android:key="guardado_datos"
+            android:title="Guardado de datos"
+            android:summary="Elige en donde se guardarán los datos de la aplicación"
+            android:entries="@array/tipos_guardado"
+            android:entryValues="@array/tipos_guardado_valores"
+            android:defaultValue="0"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

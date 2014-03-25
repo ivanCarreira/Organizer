@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/grupo"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@color/blanco_oscuro" >
+
+    <CheckedTextView
+        android:id="@+id/nombre_grupo"
+        android:layout_width="wrap_content"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:paddingLeft="40dp"
+        android:layout_alignParentLeft="true"
+        android:gravity="center_vertical"
+        style="@style/Grupos"
+        android:text="Nombre grupo"/>
+
+    <Button
+        android:id="@+id/bNueva_tarea"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20sp"
+        android:gravity="center_vertical"
+        android:background="@android:drawable/ic_input_add"/>
+
+</RelativeLayout>

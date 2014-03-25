@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Organizer</string>
+    <string name="action_settings">Preferencias</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="titulo">Tarea</string>
+    <string name="anotacion">Anotacion (no obligatoria)</string>
+    <string name="guardar">Guardar tarea</string>
+    <string name="title_activity_nueva_tarea">NuevaTarea</string>
+    <string name="title_activity_preferencias">Preferencias</string>
+
+</resources>

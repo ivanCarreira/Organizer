@@ -1,0 +1,59 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:style/Theme.Holo.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:actionBarStyle">@style/OrganizerActionBar</item>
+    </style>
+
+    <!-- Estilo de la ActionBar -->
+    <style name="OrganizerActionBar" parent="@android:style/Widget.Holo.ActionBar.Solid">
+
+        <!-- <item name="android:background">@drawable/actionbar_background</item> -->
+        <item name="android:background">@color/verde_oscuro</item>
+        <item name="android:backgroundStacked">@color/verde_claro</item>
+        <item name="android:backgroundSplit">@color/verde_oscuro</item>
+        <item name="android:titleTextStyle">@style/OrganizerActionBarTitleText</item>
+		<item name="android:actionBarTabStyle">@style/MyActionBarTabs</item>
+		<!-- textSize no funciona para el titulo ni aqui ni abajo-->
+    </style>
+
+    <!-- Estilo del titulo de la ActionBar -->
+    <style name="OrganizerActionBarTitleText" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/blanco_oscuro</item>
+        <item name="android:textSize">16sp</item>
+        		<!-- textSize no funciona -->
+    </style>
+
+<!--     ActionBar tabs styles -->
+    <style name="MyActionBarTabs" parent="@android:style/Widget.Holo.ActionBar.TabView">
+<!--         tab indicator -->
+        <item name="android:background">@color/verde_claro</item>
+        <item name="android:textSize">@dimen/texto_tabs</item>
+        <item name="android:backgroundSplit">@color/verde_oscuro</item>
+    </style>
+    <style name="Grupos">
+        <item name="android:textColor">@color/verde_oscuro</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="Tareas">
+        <item name="android:textColor">@color/verde_claro</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+</resources>
